@@ -1,0 +1,39 @@
+/*
+Error: Invalid CP950 character "\xC2"
+        on line 30 of C:\Users\shihmark\Desktop\cars3\css\slick.scss
+
+25:   <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-4ff621027ab732d24efccdbfda10b40d3be645de22ff72aeccd01041076ef761.css" integrity="sha256-T/YhAnq3MtJO/M2/2hC0DTvmRd4i/3KuzNAQQQdu92E=" media="all" rel="stylesheet" />
+26:   
+27: 
+28:   <meta name="viewport" content="width=device-width">
+29:   
+30:   <title>slick/slick.scss at master · kenwheeler/slick · GitHub</title>
+31:   <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+32:   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+33:   <meta property="fb:app_id" content="1401488693436528">
+34: 
+35:     
+
+Backtrace:
+C:\Users\shihmark\Desktop\cars3\css\slick.scss:30
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/util.rb:1300:in `rescue in block in find_encoding_error'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/util.rb:1297:in `block in find_encoding_error'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/util.rb:1296:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/util.rb:1296:in `each_with_index'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/util.rb:1296:in `find_encoding_error'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/util.rb:905:in `check_sass_encoding'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:436:in `check_encoding!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:392:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:281:in `render'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:400:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:18:in `load'
+C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CP950 character \"\xC2\"\A         on line 30 of C:\Users\shihmark\Desktop\cars3\css\slick.scss\A \A 25:   <link crossorigin=\"anonymous\" href=\"https://assets-cdn.github.com/assets/site-4ff621027ab732d24efccdbfda10b40d3be645de22ff72aeccd01041076ef761.css\" integrity=\"sha256-T/YhAnq3MtJO/M2/2hC0DTvmRd4i/3KuzNAQQQdu92E=\" media=\"all\" rel=\"stylesheet\" />\A 26:   \A 27: \A 28:   <meta name=\"viewport\" content=\"width=device-width\">\A 29:   \A 30:   <title>slick/slick.scss at master · kenwheeler/slick · GitHub</title>\A 31:   <link rel=\"search\" type=\"application/opensearchdescription+xml\" href=\"/opensearch.xml\" title=\"GitHub\">\A 32:   <link rel=\"fluid-icon\" href=\"https://github.com/fluidicon.png\" title=\"GitHub\">\A 33:   <meta property=\"fb:app_id\" content=\"1401488693436528\">\A 34: \A 35:     "; }
